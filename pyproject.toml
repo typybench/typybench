@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typybench"
+version = "0.0.1"
+dependencies = [
+    "requests",
+    "mypy == 1.11.1",
+    "loguru",
+    "scipy",
+    "types-requests",
+    "types-paramiko",
+    "types-Pillow",
+    "types-tqdm",
+    "types-xmltodict",
+    "types-psutil",
+    "types-setuptools",
+    "types-passlib",
+    "types-PyYAML",
+    "types-toml",
+    "types-docutils",
+    "pandas",
+]
+requires-python = ">= 3.10"
+description = ""
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/typybench/typybench"
+Issues = "https://github.com/typybench/typybench/issues"
+
